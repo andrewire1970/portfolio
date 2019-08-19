@@ -1,14 +1,14 @@
 .menu-wrap {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 1;
   }
   
   .menu-wrap .toggler {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 2;
     cursor: pointer;
     width: 50px;
@@ -19,12 +19,12 @@
   .menu-wrap .hamburger {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 1;
-    width: 60px;
-    height: 60px;
-    padding: 1rem;
-    background: var(--primary-color);
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +95,7 @@
   .menu-wrap .menu {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     visibility: hidden;
@@ -106,7 +106,7 @@
   }
   
   .menu-wrap .menu > div {
-    background: var(--overlay-color);
+    background-color: #362f8c;
     border-radius: 50%;
     width: 200vw;
     height: 200vw;
@@ -134,8 +134,12 @@
   }
   
   .menu-wrap .menu > div > div > ul > li > a {
-    color: inherit;
+    color: inhert;
     text-decoration: none;
     transition: color 0.4s ease;
   }
   
+
+  .overlay-img {
+    border-radius:30%  ;
+  }
