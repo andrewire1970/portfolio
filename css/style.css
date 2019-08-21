@@ -33,6 +33,8 @@ li {
     padding: 0 3rem;
   }
 
+  
+
   .section-1 {
 
     height: 100vh;
@@ -52,6 +54,17 @@ li {
 
   .md-heading {
     padding-top: 2rem;
+    position: relative;
+    margin-left:13px;
+
+  }
+
+  .md-heading::after {
+    content: "";
+    position: absolute;
+    width:1px;
+    height:20%;
+    border-right: 2px solid white;
   }
 
 
