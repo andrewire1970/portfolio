@@ -8,5 +8,5 @@ let index = 0;
     heading.textContent = sentence.slice(0, ++index);
   }
 
-  setTimeout(type, 90);
+  setTimeout(type, 200);
 })();
