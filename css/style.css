@@ -21,6 +21,12 @@ html {
   background-color: darkslategray;
 }
 
+p {
+  background-color: darkslategray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 li {
   list-style: none;
 }

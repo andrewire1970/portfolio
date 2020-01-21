@@ -1,216 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/menu.css" />
-    <title>Andrew O'Reilly</title>
-  </head>
-  <body>
-    <div class="menu-wrap">
-      <input type="checkbox" class="toggler" />
-      <div class="hamburger"><div></div></div>
-      <div class="menu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <title>Andrew O'Reilly</title>
+</head>
+
+<body>
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler" />
+    <div class="hamburger">
+      <div></div>
+    </div>
+    <div class="menu">
+      <div>
         <div>
-          <div>
-            <img src="images/work4.jpg" alt="" class="overlay-img" />
-            <ul>
-              <li><a href="#pagesection1" classs="toggle">Home</a></li>
-              <li><a href="#aboutpage" classs="toggle">About Me</a></li>
-              <li><a href="#projectpage" classs="toggle">Projects</a></li>
-              <li><a href="#contactpage" classs="toggle">Contact</a></li>
-            </ul>
-          </div>
+          <img src="images/work4.jpg" alt="" class="overlay-img" />
+          <ul>
+            <li><a href="#pagesection1" classs="toggle">Home</a></li>
+            <li><a href="#aboutpage" classs="toggle">About Me</a></li>
+            <li><a href="#projectpage" classs="toggle">Projects</a></li>
+            <li><a href="#contactpage" classs="toggle">Contact</a></li>
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 
-    
-      <div class="section-1" id="pagesection1">
-        <h1 class="lg-heading">Andrew <span>O'Reilly</span></h1>
-        <h2 class="md-heading"></h2>
-        <div class="icons icon-1">
-          <a href="https://twitter.com/AndrewohReilly"
-            ><i class="fab fa-twitter fa-2x"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/andrew-o-reilly-036781108/"
-            ><i class="fab fa-linkedin fa-2x"></i
-          ></a>
-          <a href="https://github.com/andrewire1970"
-            ><i class="fab fa-github fa-2x"></i
-          ></a>
+
+  <div class="section-1" id="pagesection1">
+    <h1 class="lg-heading">Andrew <span>O'Reilly</span></h1>
+    <h2 class="md-heading"></h2>
+    <div class="icons icon-1">
+      <a href="https://twitter.com/AndrewohReilly"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/andrew-o-reilly-036781108/"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://github.com/andrewire1970"><i class="fab fa-github fa-2x"></i></a>
+    </div>
+  </div>
+  </div>
+
+  <div class="section-2" id="aboutpage">
+    <h1>About <span>Me</span></h1>
+    <div id="about-div">
+      <img class="about-img" src="images/me-side2.jpg" alt="Andrew O Reilly">
+
+      <p class="bio">
+        Hi there, my name is Andrew and I’m a 24-year-old Front-End Web Dev
+        from Ireland. From a young age I have loved to build things from
+        gaming PCs to PVC airsoft guns. Over the last two years I have been
+        building websites and progressive web apps using HTML CSS and
+        JavaScript.I have a hunger to learn and develop as a person; I’m
+        using this desire to further my knowledge in web and software
+        development. I hope you find my person portfolio pleasing to the eye
+        and gives you a view of my front-end capabilities.
+      </p>
+    </div>
+    <h3 id="quote">“Be stubborn about your goals and flexible about your methods.”</h3>
+  </div>
+
+  <div class="container section-3">
+    <!--CONTAINER FOR PROJECTS DIV-->
+    <div class="project-1" id="projectpage">
+      <h1 class="projects">Projects</h1>
+      <h3 class="heading">eCommerce website</h3>
+      <div class="item">
+        <div class="left-div">
+          <a target="_blank" href="https://andrewire1970.github.io/eCommerce/"><img src="images/projects/acc.jpg" alt="JS project" /></a>
+          <a href="https://andrewire1970.github.io/eCommerce/" class="btn-light">Project</a>
+          <a href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
+        </div>
+
+        <div class="right-div">
+          <p class="project-info">
+            I built this ecommerce website with the bootstrap 4 library. I
+            decided on this as I knew taking on a large project like an
+            ecommerce site would include a large number of media queries to
+            get the responsiveness required. Bootstrap with its flexible grid
+            system would help me achieve this. Included in the library is the
+            carousel component, which is used to showcase items on sale. For the website to be functional I needed a
+            sign in
+            section with a form that validates the users email and checks that
+            all input fields are completed. Currently I’m working on a cart
+            section that accumulates all items and prices into a users cart
+            using JavaScript.
+          </p>
+          <ul class="center-li">
+            <li>HTML</li>
+            <li>css</li>
+            <li>Bootstrap</li>
+            <li>Javascript</li>
+          </ul>
         </div>
       </div>
+      <!--GRID  ITEM CONTAINER DIV-->
     </div>
+    <!--project-1 div -->
 
-    <div class="section-2"id="aboutpage">
-      <h1>About <span>Me</span></h1>
-      <div id="about-div">
-        <img
-          class="about-img"
-          src="images/me-side2.jpg"
-          alt="Andrew O Reilly"
-        />
-
-        <p class="bio">
-          Hi there, my name is Andrew and I’m a 24-year-old Front-End Web Dev
-          from Ireland. From a young age I have loved to build things from
-          gaming PCs to PVC airsoft guns. Over the last two years I have been
-          building websites and progressive web apps using HTML CSS and
-          JavaScript. I have a hunger to learn and develop as a person; I’m
-          using this desire to further my knowledge in web and software
-          development. I hope you find my person portfolio pleasing to the eye
-          and gives you a view of my front-end capabilities.
-        </p>
-      </div>
-      <p id="quote">“Be stubborn about your goals and flexible about your methods.”</p>
-    </div>
-
-    <div class="container section-3">
-      <!--CONTAINER FOR PROJECTS DIV-->
-      <div class="project-1" id="projectpage">
-        <h1 class="projects">Projects</h1>
-        <h3 class="heading">eCommerce website</h3>
-        <div class="item">
-          <div class="left-div">
-            <a  target="_blank" href="https://andrewire1970.github.io/eCommerce/"
-              ><img src="images/projects/acc.jpg" alt="JS project"
-            /></a>
-            <a href="https://andrewire1970.github.io/eCommerce/" class="btn-light">Project</a>
-            <a href="https://github.com/andrewire1970/DiceGame" class="btn-dark"
-              >Github</a
-            >
-          </div>
-
-          <div class="right-div">
-            <p class="project-info">
-              I built this ecommerce website with the bootstrap 4 library. I
-              decided on this, as I knew taking on a large project like an
-              ecommerce site would include a large number of media queries to
-              get the responsiveness required. Bootstrap with its flexible grid
-              system would help me achieve this. Included in the library is the
-              carousel component, which is used to showcase items on sale. As
-              the site has a large number of images that need to be responsive I
-              used the img-fluid class to attain fully scalable images across
-              the site. For the website to be functional I needed a sign in
-              section with a form that validates the users email and checks that
-              all input fields are completed. Currently I’m working on a cart
-              section that accumulates all items and prices into a users cart
-              using JavaScript.
-            </p>
-            <ul class="center-li">
-              <li>HTML</li>
-              <li>css</li>
-              <li>Bootstrap</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
+    <div class="project-2">
+      <h3 class="heading">My Portfolio</h3>
+      <div class="item">
+        <div class="left-div">
+          <a href="#!"><img src="images/projects/portfolioimg.jpg" alt="JS project" /></a>
+          <a href="https://andrewire1970.github.io/DiceGame/" class="btn-light">Project</a>
+          <a href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
         </div>
-        <!--GRID  ITEM CONTAINER DIV-->
-      </div>
-      <!--project-1 div -->
-
-      <div class="project-2">
-        <h3 class="heading">My Portfolio</h3>
-        <div class="item">
-          <div class="left-div">
-            <a href="#!"
-              ><img src="images/projects/portfolioimg.jpg" alt="JS project"
-            /></a>
-            <a
-              href="https://andrewire1970.github.io/DiceGame/"
-              class="btn-light"
-              >Project</a
-            >
-            <a href="https://github.com/andrewire1970/DiceGame" class="btn-dark"
-              >Github</a
-            >
-          </div>
-          <div class="right-div">
-            <p class="project-info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              voluptas eius delectus. Nam vero vel recusandae pariatur?
-              Laudantium esse, amet odit voluptates delectus tempore culpa,
-              placeat cumque sapiente aspernatur minima?
-            </p>
-            <ul>
-              <li>HTMl</li>
-              <li>css</li>
-              <li>Bootstrap</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
+        <div class="right-div">
+          <p class="project-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            voluptas eius delectus. Nam vero vel recusandae pariatur?
+            Laudantium esse, amet odit voluptates delectus tempore culpa,
+            placeat cumque sapiente aspernatur minima?
+          </p>
+          <ul>
+            <li>HTMl</li>
+            <li>css</li>
+            <li>Bootstrap</li>
+            <li>Javascript</li>
+          </ul>
         </div>
-        <!--GRID ITEM DIV-->
       </div>
-      <!--PROJECT 2 DIV-->
+      <!--GRID ITEM DIV-->
+    </div>
+    <!--PROJECT 2 DIV-->
 
-      <div class="project-3">
-        <h3 class="">React Cookbook</h3>
-        <div class="item">
-          <div class="left-div">
-            <a href="#!"
-              ><img src="images/projects/work4.jpg" alt="JS project"
-            /></a>
-            <a
-              href="https://andrewire1970.github.io/DiceGame/"
-              class="btn-light"
-              >Project</a
-            >
-            <a href="https://github.com/andrewire1970/DiceGame" class="btn-dark"
-              >Github</a
-            >
-          </div>
-          <div class="right-div">
-            <p class="project-info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              voluptas eius delectus. Nam vero vel recusandae pariatur?
-              Laudantium esse, amet odit voluptates delectus tempore culpa,
-              placeat cumque sapiente aspernatur minima?
-            </p>
-            <ul>
-              <li>HTMl</li>
-              <li>css</li>
-              <li>Bootstrap</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
+    <div class="project-3">
+      <h3 class="">React Cookbook</h3>
+      <div class="item">
+        <div class="left-div">
+          <a href="#!"><img src="images/projects/work4.jpg" alt="JS project" /></a>
+          <a href="https://andrewire1970.github.io/DiceGame/" class="btn-light">Project</a>
+          <a href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
         </div>
-        <!--GRID ITEM DIV-->
+        <div class="right-div">
+          <p class="project-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            voluptas eius delectus. Nam vero vel recusandae pariatur?
+            Laudantium esse, amet odit voluptates delectus tempore culpa,
+            placeat cumque sapiente aspernatur minima?
+          </p>
+          <ul>
+            <li>HTMl</li>
+            <li>css</li>
+            <li>Bootstrap</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
       </div>
-      <!-- PROJECT 3 DIV-->
+      <!--GRID ITEM DIV-->
     </div>
-    <!-- section 3 div-->
+    <!-- PROJECT 3 DIV-->
+  </div>
+  <!-- section 3 div-->
 
-    <div class="section-4" id="contactpage">
-      <h1 class="contact">Contact Links</h1>
-      <div class="contact-icons">
-         <a href="https://www.linkedin.com/in/andrew-o-reilly-036781108/"
-          ><i class="fab fa-linkedin fa-5x"></i
-        ></a>
-        <a href="https://github.com/andrewire1970"
-          ><i class="fab fa-github fa-5x"></i
-        ></a>
-        <a href="https://twitter.com/AndrewohReilly"
-          ><i class="fab fa-twitter fa-5x"></i
-        ></a>
-      </div>
+  <div class="section-4" id="contactpage">
+    <h1 class="contact">Contact Links</h1>
+    <div class="contact-icons">
+      <a href="https://www.linkedin.com/in/andrew-o-reilly-036781108/"><i class="fab fa-linkedin fa-5x"></i></a>
+      <a href="https://github.com/andrewire1970"><i class="fab fa-github fa-5x"></i></a>
+      <a href="https://twitter.com/AndrewohReilly"><i class="fab fa-twitter fa-5x"></i></a>
     </div>
+  </div>
 
-    <!-- MAIN PAGE CONTAINER-->
-    <script src="app.js"></script>
-  </body>
-  <footer>Andrew O'Reilly &copy; 2019</footer>
+  <!-- MAIN PAGE CONTAINER-->
+  <script src="app.js"></script>
+</body>
+<footer>Andrew O'Reilly &copy; 2019</footer>
+
 </html>
