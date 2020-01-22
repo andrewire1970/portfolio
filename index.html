@@ -2,32 +2,34 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/menu.css" />
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
   <title>Andrew O'Reilly</title>
+
 </head>
 
 <body>
   <div class="menu-wrap">
-    <input type="checkbox" class="toggler" />
+    <input type="checkbox" id="ham" class="toggler">
     <div class="hamburger">
       <div></div>
     </div>
-    <div class="menu">
+    <div id="nav" class="menu">
       <div>
         <div>
           <img src="images/work4.jpg" alt="" class="overlay-img" />
           <ul>
-            <li><a href="#pagesection1" classs="toggle">Home</a></li>
-            <li><a href="#aboutpage" classs="toggle">About Me</a></li>
-            <li><a href="#projectpage" classs="toggle">Projects</a></li>
-            <li><a href="#contactpage" classs="toggle">Contact</a></li>
+            <li><a href="#pagesection1" class="toggle">Home</a></li>
+            <li><a href="#aboutpage" class="toggle">About Me</a></li>
+            <li><a href="#projectpage" class="toggle">Projects</a></li>
+            <li><a href="#contactpage" class="toggle">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -52,7 +54,7 @@
       <img class="about-img" src="images/me-side2.jpg" alt="Andrew O Reilly">
 
       <p class="bio">
-        Hi there, my name is Andrew and I’m a 24-year-old Front-End Web Dev
+        Hi there, my name is Andrew and I’m a 25-year-old Front-End Web Dev
         from Ireland. From a young age I have loved to build things from
         gaming PCs to PVC airsoft guns. Over the last two years I have been
         building websites and progressive web apps using HTML CSS and
@@ -69,12 +71,13 @@
     <!--CONTAINER FOR PROJECTS DIV-->
     <div class="project-1" id="projectpage">
       <h1 class="projects">Projects</h1>
-      <h3 class="heading">eCommerce website</h3>
+      <h3 class="heading">E-commerce website</h3>
       <div class="item">
         <div class="left-div">
           <a target="_blank" href="https://andrewire1970.github.io/eCommerce/"><img src="images/projects/acc.jpg" alt="JS project" /></a>
-          <a href="https://andrewire1970.github.io/eCommerce/" class="btn-light">Project</a>
-          <a href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
+          <a target="_blank" href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
+          <a target="_blank" href="https://andrewire1970.github.io/eCommerce/" class="btn-light">Project</a>
+
         </div>
 
         <div class="right-div">
@@ -91,12 +94,12 @@
             section that accumulates all items and prices into a users cart
             using JavaScript.
           </p>
-          <ul class="center-li">
-            <li>HTML</li>
-            <li>css</li>
-            <li>Bootstrap</li>
-            <li>Javascript</li>
-          </ul>
+          <div class="center-li">
+            <i class="fab fa-html5 fa-3x icon-project"></i>
+            <i class="fab fa-bootstrap fa-3x icon-project"></i>
+            <i class="fab fa-css3 fa-3x icon-project"></i>
+
+          </div>
         </div>
       </div>
       <!--GRID  ITEM CONTAINER DIV-->
@@ -107,9 +110,11 @@
       <h3 class="heading">My Portfolio</h3>
       <div class="item">
         <div class="left-div">
-          <a href="#!"><img src="images/projects/portfolioimg.jpg" alt="JS project" /></a>
-          <a href="https://andrewire1970.github.io/DiceGame/" class="btn-light">Project</a>
-          <a href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
+          <a target="_blank" href="https://andrewire1970.github.io/DiceGame/"><img src="images/projects/jsdicegame.jpg"
+              alt="JS project" /></a>
+          <a target="_blank" href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
+          <a target="_blank" href="https://andrewire1970.github.io/DiceGame/" class="btn-light">Project</a>
+
         </div>
         <div class="right-div">
           <p class="project-info">
@@ -117,59 +122,67 @@
             voluptas eius delectus. Nam vero vel recusandae pariatur?
             Laudantium esse, amet odit voluptates delectus tempore culpa,
             placeat cumque sapiente aspernatur minima?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            voluptas eius delectus. Nam vero vel recusandae pariatur?
+            Laudantium esse, amet odit voluptates delectus tempore culpa,
+            placeat cumque sapiente aspernatur minima?
           </p>
-          <ul>
-            <li>HTMl</li>
-            <li>css</li>
-            <li>Bootstrap</li>
-            <li>Javascript</li>
-          </ul>
+          <div class="center-li">
+            <i class="fab fa-html5 fa-3x icon-project"></i>
+            <i class="fab fa-css3 fa-3x icon-project"></i>
+            <i class="fab fa-js-square fa-3x icon-project""></i>
+
+          </div>
         </div>
       </div>
       <!--GRID ITEM DIV-->
     </div>
     <!--PROJECT 2 DIV-->
 
-    <div class="project-3">
-      <h3 class="">React Cookbook</h3>
-      <div class="item">
-        <div class="left-div">
-          <a href="#!"><img src="images/projects/work4.jpg" alt="JS project" /></a>
-          <a href="https://andrewire1970.github.io/DiceGame/" class="btn-light">Project</a>
-          <a href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
-        </div>
-        <div class="right-div">
-          <p class="project-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            voluptas eius delectus. Nam vero vel recusandae pariatur?
-            Laudantium esse, amet odit voluptates delectus tempore culpa,
-            placeat cumque sapiente aspernatur minima?
-          </p>
-          <ul>
-            <li>HTMl</li>
-            <li>css</li>
-            <li>Bootstrap</li>
-            <li>Javascript</li>
-          </ul>
-        </div>
-      </div>
-      <!--GRID ITEM DIV-->
-    </div>
-    <!-- PROJECT 3 DIV-->
-  </div>
-  <!-- section 3 div-->
+    <div class="
+              project-3">
+              <h3 class="">Weather App</h3>
+              <div class="item">
+                <div class="left-div">
+                  <a href="#!"><img src="images/projects/weatherapp.jpg" alt="JS project" /></a>
+                  <a href="https://github.com/andrewire1970/WeatherApp" class="btn-dark">Github</a>
+                  <a href="https://andrewire1970.github.io/WeatherApp/" class="btn-light">Project</a>
 
-  <div class="section-4" id="contactpage">
-    <h1 class="contact">Contact Links</h1>
-    <div class="contact-icons">
-      <a href="https://www.linkedin.com/in/andrew-o-reilly-036781108/"><i class="fab fa-linkedin fa-5x"></i></a>
-      <a href="https://github.com/andrewire1970"><i class="fab fa-github fa-5x"></i></a>
-      <a href="https://twitter.com/AndrewohReilly"><i class="fab fa-twitter fa-5x"></i></a>
-    </div>
-  </div>
+                </div>
+                <div class="right-div">
+                  <p class="project-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                    voluptas eius delectus. Nam vero vel recusandae pariatur?
+                    Laudantium esse, amet odit voluptates delectus tempore culpa,
+                    placeat cumque sapiente aspernatur minima?
+                  </p>
+                  <div class="center-li">
+                    <i class="fab fa-html5 fa-3x icon-project"></i>
+                    <i class="fab fa-bootstrap fa-3x icon-project"></i>
+                    <i class="fab fa-css3 fa-3x icon-project"></i>
 
-  <!-- MAIN PAGE CONTAINER-->
-  <script src="app.js"></script>
+                  </div>
+                </div>
+              </div>
+              <!--GRID ITEM DIV-->
+          </div>
+          <!-- PROJECT 3 DIV-->
+        </div>
+        <!-- section 3 div-->
+
+        <div class="section-4" id="contactpage">
+          <h1 class="contact">Contact Links</h1>
+          <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/andrew-o-reilly-036781108/"><i class="fab fa-linkedin fa-5x"></i></a>
+            <a href="https://github.com/andrewire1970"><i class="fab fa-github fa-5x"></i></a>
+            <a href="https://twitter.com/AndrewohReilly"><i class="fab fa-twitter fa-5x"></i></a>
+          </div>
+        </div>
+
+        <!-- MAIN PAGE CONTAINER-->
+        <script src="app.js"></script>
+        <script src="https://kit.fontawesome.com/070227fffe.js" crossorigin="anonymous"></script>
+
 </body>
 <footer>Andrew O'Reilly &copy; 2019</footer>
 

@@ -16,6 +16,12 @@
   opacity: 0;
 }
 
+/*trying to hide overlay on click of <a> tags */ 
+
+.menu-wrap .toggler:checked .toggle {
+  transform: scale(0);
+}
+
 .menu-wrap .hamburger {
   position: absolute;
   top: 0;

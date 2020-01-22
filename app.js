@@ -12,8 +12,26 @@ let toggle = document.querySelectorAll(".toggle");
   setTimeout(type, 200);
 })();
 
-document.querySelectorAll(".toggle").addEventListener("click", toggleOff);
+let nav = document.getElementById('nav');
 
-function toggleOff() {
-  toggle.style.visibility = "none";
+document.getElementById('ham').addEventListener("click", () => {
+
+  nav.style.visibility = 'visible';
+
+});
+
+
+
+
+
+for (tog of toggle) {
+
+  console.log(tog)
+
+  tog.addEventListener("click", () => {
+
+    nav.style.visibility = "hidden";
+
+  });
+
 }
