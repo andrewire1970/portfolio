@@ -149,7 +149,8 @@
 
 .overlay-img {
   max-width: 300px;
+  max-height: 700px;
   border-radius: 15px;
   background-color: none;
-  z-index: 2;
+  
 }
