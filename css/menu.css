@@ -148,5 +148,8 @@
 }
 
 .overlay-img {
-  border-radius: 50%;
+  max-width: 300px;
+  border-radius: 15px;
+  background-color: none;
+  z-index: 2;
 }
