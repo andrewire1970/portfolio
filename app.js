@@ -9,7 +9,7 @@ let toggle = document.querySelectorAll(".toggle");
     heading.textContent = sentence.slice(0, ++index);
   }
 
-  setTimeout(type, 200);
+  setTimeout(type, 100);
 })();
 
 let nav = document.getElementById('nav');

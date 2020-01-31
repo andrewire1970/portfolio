@@ -134,6 +134,12 @@ img {
   display: block;
 }
 
+.hover-effect:hover {
+  color: #fff;
+  opacity: 0.5;
+
+}
+
 .item {
   padding-bottom: 1rem;
   padding-top: 2rem;
@@ -188,7 +194,7 @@ div .contact-icons {
 .contact-icons .fab {
   display: block;
   padding-top: 15px;
-  padding-right: 15px;
+  
 }
 
 footer {
@@ -290,6 +296,8 @@ footer {
   .right-div {
     grid-area: right-div;
   }
+  
+
 }
 
 @media only screen and (min-width: 992px) {
