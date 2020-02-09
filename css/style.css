@@ -124,6 +124,10 @@ h3 {
 .section-3 {
   height: 100%;
 }
+#code {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 .projects {
   padding: 2rem 0;
@@ -222,6 +226,12 @@ footer {
     
   }
 
+  .heading {
+    text-align: left;
+    border-bottom:  2px solid grey;
+    max-width: 30%;;
+  }
+
   .md-heading::after {
     content: "";
     position: absolute;
@@ -274,13 +284,15 @@ footer {
   }
   .bio {
     grid-area: bio;
-    max-width: 75%;
+    
   }
 
   .project-1 {
     min-height: 100vh;
     border-bottom: 2px solid #fff;
   }
+
+  
 
   .project-2 {
     min-height: 100vh;
