@@ -12,7 +12,7 @@
 }
 
 html {
-  background: url(../images/backandrew.jpg) no-repeat center center fixed;
+  background: url(../images/bkround.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,9 +21,9 @@ html {
   background-color: darkslategray;
 }
 
+
 p {
-  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
- background-blend-mode: multiply,multiply;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   padding: 20px;
   border-radius: 5px;
   
@@ -38,7 +38,7 @@ a {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Playfair Display', serif;
   line-height: 1.4;
 }
 
@@ -98,7 +98,10 @@ h3 {
   align-items: center;
 }
 
-
+.about-img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 
 
@@ -204,7 +207,7 @@ footer {
 
 @media only screen and (min-width: 600px) {
   html {
-    background: url(../images/backandrew.jpg) no-repeat center center fixed;
+    background: url(../images/bkround.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -283,6 +286,11 @@ footer {
   .project-1 {
     min-height: 100vh;
     border-bottom: 2px solid #fff;
+  }
+
+  .al-center {
+    align-self: center;
+
   }
 
   
