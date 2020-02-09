@@ -18,6 +18,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/menu.css">
   <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
@@ -83,7 +85,7 @@
       <h1 class="projects">Projects</h1>
       <h3 class="heading">E-commerce website</h3>
       <div class="item">
-        <div class="left-div">
+        <div class="left-div" data-aos="fade-right">
           <a target="_blank" href="https://andrewire1970.github.io/eCommerce/"><img class="hover-effect" src="images/projects/acc.jpg"
               alt="JS project" /></a>
           <a target="_blank" href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
@@ -91,7 +93,7 @@
 
         </div>
 
-        <div class="right-div">
+        <div class="right-div" data-aos="fade-left">
           <p class="project-info">
             I built this ecommerce website with the bootstrap 4 library. I
             decided on this as I knew taking on a large project like an
@@ -112,29 +114,60 @@
 
           </div>
         </div>
+
+
       </div>
-      <!--GRID  ITEM CONTAINER DIV-->
+      <div class="item">
+        <div class="left-div" data-aos="fade-right">
+          <p class="project-info">
+            I built this ecommerce website with the bootstrap 4 library. I
+            decided on this as I knew taking on a large project like an
+            ecommerce site would include a large number of media queries to
+            get the responsiveness required. Bootstrap with its flexible grid
+            system would help me achieve this. Included in the library is the
+            carousel component, which is used to showcase items on sale. For the website to be functional I needed a
+            sign in
+            section with a form that validates the users email and checks that
+            all input fields are completed. Currently I’m working on a cart
+            section that accumulates all items and prices into a users cart
+            using JavaScript.
+          </p>
+
+        </div>
+
+        <div class="right-div" data-aos="fade-left">
+
+          <img id="code-img" src="/images/projects/code.jpg" alt="" srcset="">
+        </div>
+      </div>
     </div>
+
+
+
+    <!--GRID  ITEM CONTAINER DIV-->
+
     <!--project-1 div -->
 
     <div class="project-2">
       <h3 class="heading">My Portfolio</h3>
       <div class="item">
-        <div class="left-div">
+        <div class="left-div" data-aos="fade-right">
           <a target="_blank" href="https://andrewire1970.github.io/DiceGame/"><img class="hover-effect" src="images/projects/portfolioimg.jpg"
               alt="JS project"></a>
           <a target="_blank" href="https://github.com/andrewire1970/DiceGame" class="btn-dark">Github</a>
           <a target="_blank" href="https://andrewire1970.github.io/DiceGame/" class="btn-light">Project</a>
 
         </div>
-        <div class="right-div">
+        <div class="right-div" data-aos="fade-left">
           <p class="project-info">
             My portfolio is my biggest project to date. I really wanted to combine all of my front-end knowledge to
             showcase what I can do. I really like clean simple websites as I find they are easy to navigate and
-            pleasing to the eye. In 2020 having a responsive website is one of the most important factors when building
+            pleasing to the eye. In 2020 having a responsive website is one of the most important factors when
+            building
             a website. I used a combination of media queries, CSS grids and Flexbox to achieve this. The hamburger
             overlay adds to the complexity of my portfolio site and was probably the most difficult part. I used
-            JavaScript in part to remove the overlay on clicking on link elements. I also used a JavaScript Typewriter
+            JavaScript in part to remove the overlay on clicking on link elements. I also used a JavaScript
+            Typewriter
             effect on my landing page to make my website less static
           </p>
           <div class="center-li">
@@ -153,14 +186,14 @@
     <div class="project-3">
       <h3 class="heading">Weather App</h3>
       <div class="item">
-        <div class="left-div">
+        <div class="left-div" data-aos="fade-right">
           <a href="https://andrewire1970.github.io/WeatherApp/"><img class="hover-effect" src="images/projects/weatherapp.jpg"
               alt="JS project"></a>
           <a href="https://github.com/andrewire1970/WeatherApp" class="btn-dark">Github</a>
           <a href="https://andrewire1970.github.io/WeatherApp/" class="btn-light">Project</a>
 
         </div>
-        <div class="right-div">
+        <div class="right-div" data-aos="fade-left">
           <p class="project-info">
 
             I wanted to build something function with what I have learned in JavaScript. I kept the UI simple
@@ -195,6 +228,13 @@
   </div>
 
   <!-- MAIN PAGE CONTAINER-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 100,
+      duration: 500
+    });
+  </script>
   <script src="app.js"></script>
   <script src="https://kit.fontawesome.com/070227fffe.js" crossorigin="anonymous"></script>
 

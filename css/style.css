@@ -52,7 +52,7 @@ body {
   height: 100vh;
   display: block;
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 6rem;
   border-bottom: 3px solid #fff;
 }
 
@@ -218,7 +218,7 @@ footer {
   }
   h3 {
     font-size: 2rem;
-    margin: 2rem 0.1rem;
+    
   }
 
   .md-heading::after {
@@ -228,12 +228,13 @@ footer {
     height: 20%;
     border-right: 2px solid white;
   }
+  
 
   .section-1 {
     height: 100vh;
     display: block;
     text-align: center;
-    padding-top: 13rem;
+    padding-top: 6rem;
   }
 
   .lg-heading {
@@ -246,7 +247,7 @@ footer {
   }
   .icons {
     font-size: 2rem;
-    padding-right: 3rem;
+    
   }
   .icons a {
     padding: 0 3rem;
@@ -267,41 +268,71 @@ footer {
   }
   .bio {
     grid-area: bio;
+    max-width: 75%;
   }
 
   .project-1 {
-    height: 100vh;
+    min-height: 100vh;
     border-bottom: 2px solid #fff;
   }
 
   .project-2 {
-    height: 100vh;
+    min-height: 100vh;
     border-bottom: 2px solid #fff;
   }
   .project-3 {
-    height: 100vh;
+    min-height: 100vh;
     border-bottom: 2px solid #fff;
   }
   .item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "left-div right-div";
-    grid-gap: 4rem;
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
   }
 
   .left-div {
     grid-area: left-div;
+   
   }
 
   .right-div {
     grid-area: right-div;
+    align-self: center;
+    
   }
   
+ .project-info {
+   margin-top: 0.5rem;
 
+
+ }
+
+ #code-img {
+   align-self: center;
+ }
 }
 
-@media only screen and (min-width: 992px) {
-  .item {
-    grid-gap: 8rem;
+@media only screen  and (min-width : 1200px) {
+  p{
+    font-size: 1rem;
   }
+
+  
+
+.md-heading {
+  font-size: 2rem;
 }
+
+.icons {
+  font-size: 3rem;
+  padding-top: 9rem;
+}
+
+.icon-1 .fab {
+  padding-left: 3rem;
+  padding-right: 3 rem;
+}
+  }
