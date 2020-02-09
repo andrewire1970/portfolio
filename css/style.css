@@ -268,9 +268,13 @@ footer {
   #about-div {
     margin-top: 5rem;
     display: grid;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
     grid-template-columns: 2fr 2fr;
     grid-template-areas: "about-img bio";
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     align-content: center;
     align-items: center;
   }
@@ -286,6 +290,9 @@ footer {
   .project-1 {
     min-height: 100vh;
     border-bottom: 2px solid #fff;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .al-center {
@@ -298,10 +305,16 @@ footer {
   .project-2 {
     min-height: 100vh;
     border-bottom: 2px solid #fff;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .project-3 {
     min-height: 100vh;
     border-bottom: 2px solid #fff;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .item {
     display: grid;
@@ -336,7 +349,16 @@ footer {
 
 @media only screen  and (min-width : 1200px) {
   p{
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+h1 {
+  font-size: 4rem;
+}
+  h3 {
+    font-size: 5rem;
+  }
+  #quote {
+    font-size: 2.5rem;
   }
 
   
@@ -345,11 +367,28 @@ footer {
   font-size: 2rem;
 }
 
+
 .icons {
   font-size: 3rem;
   padding-top: 9rem;
 }
 
+#about-div {
+  margin-left: auto;
+  margin-right:auto;
+  max-width: 90%;
+  grid-gap: 5rem;
+
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left-div right-div";
+  grid-gap: 4rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
 .icon-1 .fab {
   padding-left: 3rem;
   padding-right: 3 rem;
