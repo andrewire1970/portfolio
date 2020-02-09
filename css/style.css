@@ -98,18 +98,10 @@ h3 {
   align-items: center;
 }
 
-.about-img {
-  border: 1px solid;
-  border-radius: 50%;
-  border-color: #fff;
-}
 
-.about-img {
-  display: block;
-  margin: 2rem 18%;
-  border: none;
-  border-radius: none;
-}
+
+
+
 
 .bio {
   padding: 20px;
@@ -254,7 +246,7 @@ footer {
     font-size: 5rem;
     font-weight: 1.4;
     padding-bottom: 1.5rem;
-    letter-spacing: 25px;
+    letter-spacing: px;
   }
   .md-heading {
     padding-bottom: 6rem;
