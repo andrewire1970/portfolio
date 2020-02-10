@@ -22,8 +22,6 @@ document.getElementById('ham').addEventListener("click", () => {
 
 
 
-
-
 for (tog of toggle) {
 
   console.log(tog)
@@ -64,3 +62,5 @@ function changeImg() {
 
 // Run function when page loads
 window.onload = changeImg;
+
+
