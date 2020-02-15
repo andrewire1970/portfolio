@@ -1,5 +1,5 @@
 let heading = document.querySelector(".md-heading");
-let sentence = "I love you Iulia Ioja";
+let sentence = "Front-End Web Developer";
 let currentText = "";
 let index = 0;
 let toggle = document.querySelectorAll(".toggle");
